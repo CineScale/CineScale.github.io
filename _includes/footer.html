@@ -1,0 +1,24 @@
+<footer class="footer">
+    <div class="container has-text-centered">
+        
+        {% if site.footer_menu %}
+        <div class="columns is-multiline">
+            {% for item in site.data[site.footer_menu] %}
+            <div class="column has-text-centered">
+                <div>
+                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <a class="" href="https://www.unibs.it/">
+            <img src="img/unibs.png" style="width: 20%"/>
+        </a>
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme based on <a href="https://www.csrhymes.com">csrhymes</a></p>
+        </div>
+    </div>
+</footer>

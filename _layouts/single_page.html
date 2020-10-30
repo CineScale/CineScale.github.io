@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+{% if page.toc %}
+    {% assign contentsTitle = page.toc_title | default: 'Contents' %}
+    {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
+{% endif %}
+<div class="content">
+    {{ content }}
+</div>
+
+
+<div class="columns is-multiline">
+
+    <div class="column is-12">
+        <h1 class="title is-3" id="people">People</h1>
+        <div class="content">
+        The research activities are conducted by joint project team belonging to the <i>Department of Information Engineering</i> (DII) of the University of Brescia (Italy) and the <i>Department of Film Studies</i> at the ELTE University of Budapest (Hungary).
+    </div>
+    </div>
+    {% for author in site.data.people %}
+        {% if author.group == "Leadership" %}
+        <div class="column is-3-desktop is-4-tablet">
+            <div class="card">
+                <div class="card-image has-text-centered">
+                  <figure class="image is-128x128 is-inline-block">
+                      <img class="is-rounded" src="{{ author.avatar}}" alt="{{ author.name }}"/>
+                  </figure>
+                </div>
+                <div class="card-content" style="text-align: center;">
+                    <p class="title is-5">{{ author.name }}</p>
+                    <p class="subtitle is-6">{{ author.role }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+
+    <div class="column is-12">
+    </div>
+    {% for author in site.data.people %}
+        {% if author.group == "Team" %}
+        <div class="column is-3-desktop is-4-tablet">
+            <div class="card">
+                <div class="card-image has-text-centered">
+                  <figure class="image is-128x128 is-inline-block">
+                      <img class="is-rounded" src="{{ author.avatar}}" alt="{{ author.name }}"/>
+                  </figure>
+                </div>
+                <div class="card-content" style="text-align: center;">
+                    <p class="title is-5">{{ author.name }}</p>
+                    <p class="subtitle is-6">{{ author.role }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+</div>

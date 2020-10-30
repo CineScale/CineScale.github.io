@@ -1,0 +1,55 @@
+---
+layout: default
+show_sidebar: false
+---
+
+<div class="columns is-multiline">
+
+    <div class="column is-12">
+        {{ page.content }}
+    </div>
+
+    <div class="column is-12">
+        <h1 class="title is-3">Leadership</h1>
+    </div>
+    {% for author in site.data.people %}
+        {% if author.group == "Leadership" %}
+        <div class="column is-3-desktop is-4-tablet">
+            <div class="card">
+                <div class="card-image has-text-centered">
+                  <figure class="image is-128x128 is-inline-block">
+                      <img class="is-rounded" src="{{ author.avatar}}" alt="{{ author.name }}"/>
+                  </figure>
+                </div>
+                <div class="card-content" style="text-align: center;">
+                    <p class="title is-5">{{ author.name }}</p>
+                    <p class="subtitle is-6">{{ author.role }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+
+    <div class="column is-12">
+        <h1 class="title is-3">Team</h1>
+    </div>
+    {% for author in site.data.people %}
+        {% if author.group == "Team" %}
+        <div class="column is-3-desktop is-4-tablet">
+            <div class="card">
+                <div class="card-image has-text-centered">
+                  <figure class="image is-128x128 is-inline-block">
+                      <img class="is-rounded" src="{{ author.avatar}}" alt="{{ author.name }}"/>
+                  </figure>
+                </div>
+                <div class="card-content" style="text-align: center;">
+                    <p class="title is-5">{{ author.name }}</p>
+                    <p class="subtitle is-6">{{ author.role }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+
