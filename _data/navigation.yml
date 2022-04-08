@@ -1,10 +1,25 @@
-- name: Goal
-  link: /#what-is-the-aim
-- name: Data
-  link: /#dataset
-- name: Results
-  link: /#results 
-- name: CNN model
-  link: /#get-the-model 
-- name: People
-  link: /#people
+- name: ShotScale
+  link: /#
+  dropdown: 
+    - name: Goal
+      link: /#what-is-the-aim
+    - name: Data
+      link: /#dataset
+    - name: Results
+      link: /#results 
+    - name: CNN model
+      link: /#get-the-model 
+    - name: People
+      link: /#people
+
+- name: Anime
+  link: /anime/
+  dropdown: 
+    - name: Goal
+      link: /anime/#what-is-the-aim
+    - name: Data
+      link: /anime/#dataset
+    - name: Results
+      link: /anime/#results 
+    - name: CNN model
+      link: /anime/#get-the-model 
