@@ -402,10 +402,8 @@ In the Figures labels are represented as (GT value > Predicted value).
   <div class="column">
     <span>
         Hereafter, you can find a convenient jupyter notebook with a demo. Updated versions of the models of each camera features, which use convnet networks pre-trained with ImageNet, are also provided.<br /><br />
-        <a href="model/XXXXXXX.ipynb" class="button is-primary is-outlined is-medium">Jupyter notebook</a>
-        <a href="model/XXXXX.zip" class="button is-info is-outlined is-medium">Model Camera Angle</a>
-        <a href="model/XXXXX.zip" class="button is-info is-outlined is-medium">Model Camera Level</a>
-        <a href="model/XXXXX.zip" class="button is-info is-outlined is-medium">Model Shot Scale</a>
+        <a href="https://osf.io/zv3bg/?view_only=2db568081d814861897b03543822ca63" class="button is-primary is-outlined is-medium">Jupyter notebook</a>
+        <a href="https://osf.io/c7ht6/?view_only=9a31d67ce48e4a76a42021d1babcafbf" class="button is-info is-outlined is-medium">Camera Features - Keras ModelsModels</a>
     </span>
   </div>
 </div>
