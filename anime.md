@@ -3,7 +3,7 @@ title: "Automatic indexing of virtual camera features from Japanese anime"
 subtitle: 
 layout: post
 show_sidebar: false
-hero_image: /img/header_anime.png
+hero_image: /img/anime/header_anime.png
 ---
 
 <!-- #region -->
