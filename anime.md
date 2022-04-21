@@ -5,6 +5,7 @@ layout: post
 show_sidebar: false
 hero_image: /img/anime/header_anime.png
 ---
+Header images from: Evangelion: 3.0 + 1.0 Thrice Upon a Time (left), The Tale of the Princess Kaguya (center) and The Wind Rises (right).
 
 <!-- #region -->
 # Camera Feature Recognition
