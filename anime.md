@@ -3,8 +3,9 @@ title: "Automatic indexing of virtual camera features from Japanese anime"
 subtitle: 
 layout: single_page
 show_sidebar: false
-hero_image: /img/header_anime.png
+hero_image: /img/anime/header_anime.png
 ---
+Header images from: Evangelion: 3.0 + 1.0 Thrice Upon a Time (left), The Tale of the Princess Kaguya (center) and The Wind Rises (right).
 
 <!-- #region -->
 # Camera Feature Recognition
@@ -296,9 +297,9 @@ The dataset is a collection of images and related data and metadata that is made
 <b>By registering for downloads, you are agreeing to this:</b>
 
 1.	Permission is granted to view and use the Dataset without charge for research purposes only. Its sale is prohibited. Any non-academic research use need to be evaluated case by case by the DII. If you intend to use this Dataset for any non-academic research use, you need to communicate it describing the intended use and receive approval by the DII.
-2.	In agreement with the mission of UniBS to promote the publication of scientific knowledge as open data, any computational model or algorithm that have used the Dataset and is publicly referenced (e.g. in a publication etc..) is suggested to be shared including the code and model weights and any case will give appropriate credit by correctly citing the CineScale project scientific papers, but not in any way that suggests that UniBS endorses you or your use.
+2.	In agreement with the mission of UniBS to promote the publication of scientific knowledge as open data, any computational model or algorithm that have used the Dataset and is publicly referenced (e.g. in a publication etc..) is suggested to be shared including the code and model weights and any case will give appropriate credit by correctly citing the AniFeature project scientific papers, but not in any way that suggests that UniBS endorses you or your use.
 3.	Other than the rights granted herein, UNIBS retains all rights, title, and interest in the Dataset.
-4.	You may make a verbatim copy of the "CineScale Dataset" for uses as permitted in this Research Use Agreement. If another user within your organization wishes to use the Dataset, they must comply with all the terms of this Research Use Agreement.
+4.	You may make a verbatim copy of the "AniFeature Dataset" for uses as permitted in this Research Use Agreement. If another user within your organization wishes to use the Dataset, they must comply with all the terms of this Research Use Agreement.
 5.	YOU MAY NOT DISTRIBUTE, PUBLISH, OR REPRODUCE A COPY of any portion or all of the Dataset to others without specific prior written permission from the DII.
 6.	You must not modify, reverse engineer, decompile, or create derivative works from the Dataset. You must not remove or alter any copyright or other proprietary notices in the Dataset.
 7.	THE Dataset IS PROVIDED «AS IS,» AND UNIBS AND ELTE DO NOT MAKE ANY WARRANTY, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, NOR DO THEY ASSUME ANY LIABILITY OR RESPONSIBILITY FOR THE USE OF THIS Dataset.
@@ -406,10 +407,8 @@ In the Figures labels are represented as (GT value > Predicted value).
   <div class="column">
     <span>
         Hereafter, you can find a convenient jupyter notebook with a demo. Updated versions of the models of each camera features, which use convnet networks pre-trained with ImageNet, are also provided.<br /><br />
-        <a href="model/XXXXXXX.ipynb" class="button is-primary is-outlined is-medium">Jupyter notebook</a>
-        <a href="model/XXXXX.zip" class="button is-info is-outlined is-medium">Model Camera Angle</a>
-        <a href="model/XXXXX.zip" class="button is-info is-outlined is-medium">Model Camera Level</a>
-        <a href="model/XXXXX.zip" class="button is-info is-outlined is-medium">Model Shot Scale</a>
+        <a href="https://osf.io/zv3bg/?view_only=2db568081d814861897b03543822ca63" class="button is-primary is-outlined is-medium">Jupyter notebook</a>
+        <a href="https://osf.io/c7ht6/?view_only=9a31d67ce48e4a76a42021d1babcafbf" class="button is-info is-outlined is-medium">Camera Features - Keras Models</a>
     </span>
   </div>
 </div>
