@@ -1,7 +1,7 @@
 ---
 title: "Automatic indexing of virtual camera features from Japanese anime"
 subtitle: 
-layout: single_page
+layout: page
 show_sidebar: false
 hero_image: /img/anime/header_anime.png
 ---
@@ -309,9 +309,12 @@ The dataset is a collection of images and related data and metadata that is made
 
 </pre>
 </div>
-</section>
 
-[Download](#TBD){: .button .is-success .is-medium}
+<p><centered>
+<a href="https://osf.io/ztuq8/?view_only=61b7fc8c68954948a29f8ed44cd41b61" class="button is-success is-medium">Download</a>
+</centered></p>
+<br />
+</section>
 
 ## Data Augmentation
 
@@ -407,7 +410,7 @@ In the Figures labels are represented as (GT value > Predicted value).
   <div class="column">
     <span>
         Hereafter, you can find a convenient jupyter notebook with a demo. Updated versions of the models of each camera features, which use convnet networks pre-trained with ImageNet, are also provided.<br /><br />
-        <a href="https://osf.io/zv3bg/?view_only=2db568081d814861897b03543822ca63" class="button is-primary is-outlined is-medium">Jupyter notebook</a>
+        <a href="https://osf.io/b54af/?view_only=2db568081d814861897b03543822ca63" class="button is-primary is-outlined is-medium">Jupyter notebook</a>
         <a href="https://osf.io/c7ht6/?view_only=9a31d67ce48e4a76a42021d1babcafbf" class="button is-info is-outlined is-medium">Camera Features - Keras Models</a>
     </span>
   </div>
@@ -419,8 +422,11 @@ In the Figures labels are represented as (GT value > Predicted value).
 For any use or reference to this project please cite the following papers.
 
 ```
-@INPROCEEDINGS{
-  TBD
+@INPROCEEDINGS{anime22,
+AUTHOR = {Gualandris, Gianluca and Savardi, Mattia and Signoroni, Alberto and Benini, Sergio},
+TITLE = {Automatic indexing of virtual camera features from Japanese anime},
+YEAR = {2022},
+EDITOR = {FAPER 2022}
 }
   
 ```
