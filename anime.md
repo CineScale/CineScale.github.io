@@ -30,7 +30,9 @@ Header images from: Evangelion: 3.0 + 1.0 Thrice Upon a Time (left), The Tale of
 
 <!-- #endregion -->
 
-## Dataset <!-- #region -->
+## Dataset 
+
+<!-- #region -->
 We collect a large dataset of shot frames (more than <b>17000</b>) from animation movies directed by some of the most important directors of Japanese animation such as Hayao Miyazaki, Hideaki Anno and Mamoru Oshii and directed between 1982 and 2021.
 Each frame is manually annotated into the corresponding classes for camera angle (Overhead, High, Neutral, Low and Dutch), camera level (Aerial, Eye, Shoulder, Hip, Knee and Ground), and shot scale (Long, Medium and Close-up).
 Manual annotations on frames are provided by two independent coders, while a third person checks their coding and makes decisions in cases of disagreement.

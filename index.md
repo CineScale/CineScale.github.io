@@ -59,8 +59,8 @@ Two independent coders code the 124 movies and a third person checks their codin
     </tr>
   </tbody>    
     </table>
-    
- 
+​    
+
  <table>
   <thead>
     <tr>
@@ -256,8 +256,9 @@ Left to right: a borderline case; a low contrast frame; an artistic shot; an err
   <div class="column">
     <span>
         Hereafter, you can find a convenient jupyter notebook with a demo. It is included an updated version of the model that makes use of <i>DenseNet</i>, improving the overall accuracy by ~3% with respect to the best model presented on the research article (VGG16, see above). <br /><br />
-        <a href="model/ShotScale-test.ipynb" class="button is-primary is-outlined is-medium">Jupyter notebook</a>
-        <a href="model/model_shotscale_967.h5" class="button is-info is-outlined is-medium">Model weights</a>
+        <a href="examples/ShotScale-test.ipynb" class="button is-primary is-outlined is-medium">Jupyter notebook</a>
+        <a href="examples/model_shotscale_967.h5" class="button is-info is-outlined is-medium">Model weights</a>
+        <a href="https://colab.research.google.com/github/CineScale/CineScale.github.io/blob/master/model/Demo_ShotScale_Cinescale.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Collab" class="button is-primary is-outlined is-medium"></a>
     </span>
   </div>
 </div>
