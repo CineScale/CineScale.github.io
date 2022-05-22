@@ -5,7 +5,8 @@ layout: post
 show_sidebar: false
 hero_image: /img/anime/header_anime.png
 ---
-Header images from: Evangelion: 3.0 + 1.0 Thrice Upon a Time (left), The Tale of the Princess Kaguya (center) and The Wind Rises (right).
+Header images from: Evangelion: 3.0 + 1.0 Thrice Upon a Time (left, © 2021 Khara), The Tale of the Princess Kaguya (center, © 2013 畑事務所・Studio Ghibli・NDHDMTK) and The Wind Rises (right, © 2013 Studio Ghibli・NDHDMTK).
+All rights reserved. All images shown are for illustration purpose only.
 
 <!-- #region -->
 # Camera Feature Recognition
@@ -352,19 +353,19 @@ The matrices in the Figures represent the results obtained with the models train
         <tr>
           <td>Camera Angle</td>
           <td>0.49</td>
-          <td>0.59</td>
-          <td>0.80</td>
+          <td>0.61</td>
+          <td>0.62</td>
         </tr>
         <tr>
           <td>Camera Level</td>
-          <td>0.61</td>
+          <td>0.59</td>
           <td>0.68</td>
-          <td>0.80</td>
+          <td>0.69</td>
         </tr>
         <tr>
           <td>Shot Scale</td>
-          <td>0.62</td>
-          <td>0.69</td>
+          <td>0.80</td>
+          <td>0.80</td>
           <td>0.80</td>
         </tr>
       </tbody>    
@@ -409,6 +410,12 @@ In the Figures labels are represented as (GT value > Predicted value).
   </div>
 </div>
 
+## AniXtract
+AniXtract is a tool written in Python for extracting and annotating camera-features from videos.
+Through the use of Neural Network Keras models, the program is able to automatically classify of each frame of a movie
+(whether a local video file or a Youtube movie) the camera-features. The source code and release are available on
+<a href=https://github.com/Mad0Scientisto/AniXtract>GitHub</a>. You can use this tool as an alternative to
+the Jupyter Notebook demo in the paragraph above.
 
 ## Citations
 
