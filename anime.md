@@ -410,13 +410,6 @@ In the Figures labels are represented as (GT value > Predicted value).
   </div>
 </div>
 
-## AniXtract
-AniXtract is a tool written in Python for extracting and annotating camera-features from videos.
-Through the use of Neural Network Keras models, the program is able to automatically classify of each frame of a movie
-(whether a local video file or a Youtube movie) the camera-features. The source code and release are available on
-<a href=https://github.com/Mad0Scientisto/AniXtract>GitHub</a>. You can use this tool as an alternative to
-the Jupyter Notebook demo in the paragraph above.
-
 ## Citations
 
 For any use or reference to this project please cite the following papers.
