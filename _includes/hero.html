@@ -6,6 +6,15 @@
             {% if page.hero_link %}
                 <a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">{{ page.hero_link_text }}</a>
             {% endif %}
+
+            {% if page.show_predictions %}
+                <div class="hello" style="text-align:right; float: right;">
+                    <p class="subtitle is-5 has-background-grey" style="display: table">
+                        <b>ShotScale:</b> Very Long Sot | Long Shot</br>
+                        <b>Camera Level:</b> Shoulder | Hip</br>
+                        <b>Camera Angle:</b> Neutral | Low</p>
+                </div>
+            {% endif %}
         </div>
     </div>
 </section>

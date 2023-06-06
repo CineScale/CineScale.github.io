@@ -21,3 +21,10 @@ div.highlight {
 .hero-darken {
     background-color: rgba($hero-darken, 0.5);
 }
+
+.hello {
+    display: none;
+}
+.hero:hover .hello {
+    display: block;
+}

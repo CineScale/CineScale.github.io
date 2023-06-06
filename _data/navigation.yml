@@ -1,16 +1,26 @@
 - name: ShotScale
-  link: /#
+  link: /shotscale/
   dropdown: 
     - name: Goal
-      link: /#what-is-the-aim
+      link: /shotscale/#what-is-the-aim
     - name: Data
-      link: /#dataset
+      link: /shotscale/#dataset
     - name: Results
-      link: /#results 
+      link: /shotscale/#results
     - name: CNN model
-      link: /#get-the-model 
-    - name: People
-      link: /#people
+      link: /shotscale/#get-the-model
+
+- name: CameraAngle&Level
+  link: /camera_al/
+  dropdown:
+    - name: Goal
+      link: /camera_al/#what-is-the-aim
+    - name: Data
+      link: /camera_al/#dataset
+    - name: Results
+      link: /camera_al/#results
+    - name: CNN model
+      link: /camera_al/#get-the-model
 
 - name: Anime
   link: /anime/
@@ -22,4 +32,8 @@
     - name: Results
       link: /anime/#results 
     - name: CNN model
-      link: /anime/#get-the-model 
+      link: /anime/#get-the-model
+
+
+- name: People
+  link: /#people

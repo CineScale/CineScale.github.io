@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/anime/</loc>
+<loc>http://0.0.0.0:4000/anime/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>http://0.0.0.0:4000/camera_al/</loc>
 </url>
 <url>
-<loc>/people/</loc>
+<loc>http://0.0.0.0:4000/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/people/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/shotscale/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/img/SAVALDI%20MATTIA%20-%206,48kWp%20+%20ZCS%20copia.pdf</loc>
+<lastmod>2023-04-26T01:57:51-05:00</lastmod>
 </url>
 </urlset>

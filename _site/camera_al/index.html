@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recognition of Camera Angle and Camera Level in Movies from Single Frames - CineScale</title>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Recognition of Camera Angle and Camera Level in Movies from Single Frames | CineScale</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Recognition of Camera Angle and Camera Level in Movies from Single Frames" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Cinematic Features" />
+<meta property="og:description" content="Cinematic Features" />
+<link rel="canonical" href="http://0.0.0.0:4000/camera_al/" />
+<meta property="og:url" content="http://0.0.0.0:4000/camera_al/" />
+<meta property="og:site_name" content="CineScale" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Recognition of Camera Angle and Camera Level in Movies from Single Frames" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Cinematic Features","headline":"Recognition of Camera Angle and Camera Level in Movies from Single Frames","url":"http://0.0.0.0:4000/camera_al/"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts --></head>
+
+  <body>
+    
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                CineScale
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/shotscale/" class="navbar-link ">ShotScale</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/shotscale/#what-is-the-aim" class="navbar-item ">Goal</a>
+                            
+                            <a href="/shotscale/#dataset" class="navbar-item ">Data</a>
+                            
+                            <a href="/shotscale/#results" class="navbar-item ">Results</a>
+                            
+                            <a href="/shotscale/#get-the-model" class="navbar-item ">CNN model</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/camera_al/" class="navbar-link is-active">CameraAngle&Level</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/camera_al/#what-is-the-aim" class="navbar-item ">Goal</a>
+                            
+                            <a href="/camera_al/#dataset" class="navbar-item ">Data</a>
+                            
+                            <a href="/camera_al/#results" class="navbar-item ">Results</a>
+                            
+                            <a href="/camera_al/#get-the-model" class="navbar-item ">CNN model</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/anime/" class="navbar-link ">Anime</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/anime/#what-is-the-aim" class="navbar-item ">Goal</a>
+                            
+                            <a href="/anime/#dataset" class="navbar-item ">Data</a>
+                            
+                            <a href="/anime/#results" class="navbar-item ">Results</a>
+                            
+                            <a href="/anime/#get-the-model" class="navbar-item ">CNN model</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/#people" class="navbar-item ">People</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary"  style="background: url('/img/header.png') no-repeat center center; background-size: cover;" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2 has-background-dark" style="display: table">Recognition of Camera Angle and Camera Level in Movies from Single Frames</h1>
+            <p class="subtitle is-3 has-background-dark" style="display: table"></p>
+            
+
+            
+        </div>
+    </div>
+</section>
+
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-12">
+                    
+                    
+                    
+                    
+                    
+<div class="content">
+    <!-- #region -->
+<h1 id="camera-feature-recognition">Camera Feature Recognition</h1>
+
+<h2 id="what-is-the-aim">What is the aim?</h2>
+<div class="columns is-mobile is-centered is-vcentered">
+  <div class="column is-4">
+    <span>
+    The position and orientation of the camera in relation to the subject(s) in a movie scene, namely level and camera angle, are essential features in the film-making process due to their influence on the viewer's perception of the scene.
+Here, we propose to use Convolutional Neural Networks (CNNs) for the task of automatic recognition in movie frames of the camera angle (amongst five classes: Overhead, High, Neutral, Low, and Dutch) and camera level (amongst Aerial, Eye, Shoulder, Hip, Knee, and Ground).
+The developed models, the annotation tool, and frame data are made available  for a wide range of research purposes, such as movie stylistic analysis, video recommendation, and media psychology.
+    </span>
+  </div>
+  <div class="column">
+    <img src="/img/angle-scale-examples.png" />
+  </div>
+</div>
+
+<p><a href="/#TBD" class="button">Paper (Soon)</a></p>
+
+<!-- #endregion -->
+
+<h2 id="dataset">Dataset</h2>
+
+<!-- #region -->
+<p>For the aim of this work, we annotate camera angle on five different classes: Overhead, High, Neutral, Low, Dutch, as shown
+in Figure 1 (first row). The angle class describes camera rotation along both lateral (High, Neutral, and Low) and longitudinal (Dutch) axes. 
+In particular, an Overhead-angle indicates a take looking down on a subject from an almost perpendicular direction.
+On the other hand, we categorize camera level (i.e., the height of the camera in the scene in relation to the subject being framed) into
+six different classes: Aerial, Eye, Shoulder, Hip, Knee, Ground, as shown in Figure 1 (second row). The particular class of Aerial-level
+is used for shots taken from a considerable height, such as from a plane or a drone, showing a large portion of the surroundings. All
+annotations were performed by a team of expert film scholars: two independent coders and a third person who made decisions in cases
+of disagreement.</p>
+
+<p>The dataset used for the task of automatic classification of camera angles and levels in movie frames has been collected from various
+sources:</p>
+
+<p>• All frames in classes Eye-, Shoulder-, and Hip-level were automatically sampled from films by various authors (e.g., Scorsese,
+Bergman, etc.) of the main CineScale dataset.</p>
+
+<p>• Classes that rarely appear in movies, such as Ground- or Knee- level shots were retrieved through Google’s image search, then
+automatically downloaded, and finally manually filtered;</p>
+
+<p>• Most Aerial-level images were extracted (at 10 second intervals) from videos taken by drones over various cities and landscapes
+from freely available clips on the web;</p>
+
+<p>• Images from other classes were scraped from shot examples taken from <a href="https://shots.filmschoolrejects.com/">Film School Rejects’ online database</a></p>
+
+<!-- #region -->
+<section class="showcase">
+    <div class="showcase-content">
+    <h4 id="get-the-data">Get the data</h4>
+
+Please read the Research Use Agreement provided below. 
+        
+<pre class="highlight" style="white-space: pre-wrap">
+<b>Dataset Research Use Agreement</b>
+
+<div style="text-align: left">
+<b>Premise</b>: this project involves a set of activities aiming at AI-driven interpretation of cinematic data. The research activities are conducted by the Department of Information  Engineering (DII) of the University of Brescia, Brescia, Italy (UniBS).
+The dataset is a collection of images and related data and metadata that is made accessible for Research use only, starting from this website and after acceptance of the following terms of use. 
+
+<b>By registering for downloads, you are agreeing to this:</b>
+
+1.	Permission is granted to view and use the Dataset without charge for research purposes only. Its sale is prohibited. Any non-academic research use need to be evaluated case by case by the DII. If you intend to use this Dataset for any non-academic research use, you need to communicate it describing the intended use and receive approval by the DII.
+2.	In agreement with the mission of UniBS to promote the publication of scientific knowledge as open data, any computational model or algorithm that have used the Dataset and is publicly referenced (e.g. in a publication etc..) is suggested to be shared including the code and model weights and any case will give appropriate credit by correctly citing the AniFeature project scientific papers, but not in any way that suggests that UniBS endorses you or your use.
+3.	Other than the rights granted herein, UNIBS retains all rights, title, and interest in the Dataset.
+4.	You may make a verbatim copy of the "AniFeature Dataset" for uses as permitted in this Research Use Agreement. If another user within your organization wishes to use the Dataset, they must comply with all the terms of this Research Use Agreement.
+5.	YOU MAY NOT DISTRIBUTE, PUBLISH, OR REPRODUCE A COPY of any portion or all of the Dataset to others without specific prior written permission from the DII.
+6.	You must not modify, reverse engineer, decompile, or create derivative works from the Dataset. You must not remove or alter any copyright or other proprietary notices in the Dataset.
+7.	THE Dataset IS PROVIDED «AS IS,» AND UNIBS AND ELTE DO NOT MAKE ANY WARRANTY, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, NOR DO THEY ASSUME ANY LIABILITY OR RESPONSIBILITY FOR THE USE OF THIS Dataset.
+8.	Any violation of this Research Use Agreement or other impermissible use shall be grounds for immediate termination of use of this Dataset. In the event that UniBS determines that the recipient has violated this Research Use Agreement or other impermissible use has been made, they may direct that the undersigned data recipient immediately return all copies of the Dataset and retain no copies thereof even if you did not cause the violation or impermissible use.
+9.	You agree to indemnify and hold UniBS harmless from any claims, losses or damages, including legal fees, arising out of or resulting from your use of the Dataset or your violation or role in violation of these Terms. You agree to fully cooperate in UniBS defense against any such claims.
+</div>
+
+</pre>
+</div>
+
+<p><centered>
+<a href="https://data.mendeley.com/datasets/h4n3gn93gz" class="button is-success is-medium">Download</a>
+</centered></p>
+<br />
+</section>
+
+<h2 id="results">Results</h2>
+
+<div class="columns is-mobile is-centered is-vcentered">
+  <div class="column is-4">
+      Camera Angle<br />
+      <img src="/img/cm_angle.png" />
+  </div>
+  <div class="column is-4">
+      Camera Level<br />
+      <img src="/img/cm_level.png" />
+  </div>
+</div>
+
+<p>The matrices in the Figures represent the results obtained with the models trained with the training datasets and evaluated with the test datasets. The following F1-scores emerge from the results:</p>
+<table>
+      <thead>
+        <tr>
+          <th>Camera features</th>
+          <th>F1-macro</th>
+          <th>F1-weighted</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Camera Angle</td>
+          <td>0.94</td>
+          <td>0.96</td>
+        </tr>
+        <tr>
+          <td>Camera Level</td>
+          <td>0.91</td>
+          <td>0.95</td>
+        </tr>
+      </tbody>    
+    </table>
+
+<h2 id="get-the-demo-and-the-model">Get the demo and the model</h2>
+
+<div class="columns is-mobile is-centered is-vcentered">
+  <div class="column">
+    <span>
+        Hereafter, you can find a convenient jupyter notebook with a demo. Updated versions of the model are also provided.<br /><br />
+        <a href="https://colab.research.google.com/github/CineScale/CineScale.github.io/blob/master/model/predict_camera_angle_level.ipynb" class="button is-primary is-outlined is-medium">Jupyter notebook</a>
+        <a href="https://drive.google.com/file/d/1opv8MpHvrCdNInZQmnVklkA8Vxu6tFHT/view?usp=sharing" class="button is-info is-outlined is-medium">Camera Level&amp;Angle - Pytorch Model</a>
+    </span>
+  </div>
+</div>
+
+<h2 id="citations">Citations</h2>
+
+<p>For any use or reference to this project please cite the following papers.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@INPROCEEDINGS{camera_level_angle23,
+AUTHOR = {Savardi Mattia and  András B. {Kovács}  and Signoroni Alberto and Benini Sergio},
+TITLE = {Recognition of Camera Angle and Camera Level in Movies from Single Frames},
+booktitle={IMX2023 Joint Workshop on "Intelligent Cinematography and Editing" and "Emotions in Movies"},
+year={2023},
+organization={}
+}
+  
+</code></pre></div></div>
+
+</div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container has-text-centered">
+        
+        
+        <div class="columns is-multiline">
+            
+        </div>
+        
+
+        <a class="" href="https://www.unibs.it/">
+            <img src="/img/unibs.png" style="width: 20%"/>
+        </a>
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme based on <a href="https://www.csrhymes.com">csrhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
+

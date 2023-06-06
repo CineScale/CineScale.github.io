@@ -25,8 +25,7 @@ Header images from: Evangelion: 3.0 + 1.0 Thrice Upon a Time (left), The Tale of
   </div>
 </div>
 
-[Paper (preprint)](#TBD){: .button}
-
+[Paper (ICIAP)](https://link.springer.com/chapter/10.1007/978-3-031-13321-3_17){: .button}
 
 <!-- #endregion -->
 
@@ -427,8 +426,10 @@ For any use or reference to this project please cite the following papers.
 @INPROCEEDINGS{anime22,
 AUTHOR = {Gualandris, Gianluca and Savardi, Mattia and Signoroni, Alberto and Benini, Sergio},
 TITLE = {Automatic indexing of virtual camera features from Japanese anime},
-YEAR = {2022},
-EDITOR = {FAPER 2022}
+booktitle={Image Analysis and Processing. ICIAP 2022 Workshops: ICIAP International Workshops, Lecce, Italy, May 23--27, 2022, Revised Selected Papers, Part I},
+pages={186--197},
+year={2022},
+organization={Springer}
 }
-  
+ 
 ```

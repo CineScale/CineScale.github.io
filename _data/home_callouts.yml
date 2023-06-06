@@ -1,12 +1,12 @@
 style: is-light
 items:
-  - title: 792K frames from 124 art movies
+  - title: ~1M frames from >100 movies
     subtitle: In JPEG format extracted @1fps
     icon: fa-copy
-  - title: Shot scale annotation set
+  - title: Shot scale, Camera Angle, Camera Level annotation set
     subtitle: From 2+1 human annotators
     icon: fa-clipboard-check
-  - title: AI-driven shot scale extraction
+  - title: AI-driven features extraction
     subtitle: A CNN model for recognition
     icon: fa-brain
 
