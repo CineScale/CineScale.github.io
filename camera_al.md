@@ -84,7 +84,7 @@ The dataset is a collection of images and related data and metadata that is made
 </div>
 
 <p><centered>
-<a href="https://data.mendeley.com/datasets/h4n3gn93gz" class="button is-success is-medium">Download</a>
+<a href="https://data.mendeley.com/datasets/h4n3gn93gz/2" class="button is-success is-medium">Download</a>
 </centered></p>
 <br />
 </section>
