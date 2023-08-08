@@ -144,12 +144,6 @@ The matrices in the Figures represent the results obtained with the models train
 For any use or reference to this project please cite the following papers.
 
 ```
-@INPROCEEDINGS{camera_level_angle23,
-AUTHOR = {Savardi Mattia and  András B. {Kovács}  and Signoroni Alberto and Benini Sergio},
-TITLE = {Recognition of Camera Angle and Camera Level in Movies from Single Frames},
-booktitle={IMX2023 Joint Workshop on "Intelligent Cinematography and Editing" and "Emotions in Movies"},
-year={2023},
-organization={}
-}
+
   
 ```
